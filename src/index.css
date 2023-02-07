@@ -1,0 +1,72 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 600;
+  color: #fff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+
+ul {
+  list-style: none;
+  width: 800px;
+  text-align: left;
+
+}
+
+h2 {
+  margin: 0;
+
+}
+
+p {
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.postList-input {
+  font-size: 18px;
+  width: 350px;
+  height: 30px;
+  margin-bottom: 50px;
+  padding-left: 15px;
+  border: 2px solid #535bf2;
+  border-radius: 15px;
+  transition: .3s;
+}
+
+.postList-input:hover {
+  transform: scale(1.1);
+}
+
+
